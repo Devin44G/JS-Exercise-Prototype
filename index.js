@@ -107,10 +107,10 @@ Baby.prototype.play = function() {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1.
-  2.
-  3.
-  4.
+  1. Scope matters. For example, when you reference "this" on the global scope what will be returned to you is the window Object.
+  2. Impicit Binding: the most common use of this, when calling a function, the object before the dot is what "this" is referencing
+  3. Explicit Binding: using the .call() or .apply() methods in order to present constuctor objects in a certain way.
+  4. New keyword: Using new to assign the characteristics of a "parent" constructor class to a new instsnce of that constructor class (Ex. let Julia = new Person;)
 */
 
 
